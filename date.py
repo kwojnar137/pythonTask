@@ -2,14 +2,14 @@ import sys
 
 '''
 #1
-Load .txt file and process data line by line
+Load .txt file from args and process data line by line.
 
 #2
-Spliting line by '/' separator and make list with int type line parts
-Before changing type check data format of inputs for zero-padding or empty spaces
+Spliting text line by '/' separator and make list with int type parts.
+Before changing type of parts program check for zero-padding or empty spaces values.
 
 #3
-Function makeDate receive previously validated inputs list and sort them before non repetition permutation
+Function makeDate receive previously validated inputs list and sort them before check permutation best option
 First fited to earliest permutation option is returned and printed in year-month-day format
 
 
